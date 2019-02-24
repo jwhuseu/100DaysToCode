@@ -1,5 +1,5 @@
 /* This code is intended to solve the advection equation  
-   using the crank-nicolsen method and also practice using
+   using the crank-nicolson method and also practice using
    the armadillo C++ linear algebra library built on 
    BLAS and other similar foundational tools. (Also, kinda
    tired of having to rewrite the matrix operations for each 
