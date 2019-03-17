@@ -10,12 +10,11 @@
 #include <armadillo>
 
 using namespace std;
-using namespace armadillo;
+using namespace arma;
 
 void MatrixGeneration();
 void VectorGeneration();
 void VectorInitialConditions();
-void 
 
 int main()
 {
