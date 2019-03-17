@@ -1,0 +1,15 @@
+0.3 2000 #Material Properties of steel (Poisson's ratio and Young's Modulus)
+4		 #Number of Nodes
+0.0 0.0  #Node number 0
+1.0 0.0  #Node number 1
+0.0 1.0  #Node number 2
+1.0 1.0  #Node number 3
+2        #Number of elements
+0 1 2    #Nodes of element 0
+1 3 2    #Nodes of element 1
+2        #Number of constraints
+0 3      #Node number 0 with restriction in both x and y direction
+1 2      #Node number 1 with restriction in the y direction
+2        #Number of "forces" or boundary condition directions
+2 0.0 1.0 #Node number 2 with a force in the y direction
+3 0.0 1.0 #Node number 3 with a force in the y direction
