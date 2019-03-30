@@ -1,3 +1,8 @@
+/* I know that central difference scheme doesn't 
+ * work for the Euler equations, this was just
+ * an experiment to get something basic running.
+ */
+
 #include <iostream>
 
 using namespace std;
